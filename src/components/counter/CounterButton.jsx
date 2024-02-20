@@ -7,14 +7,6 @@ export default function CounterButton({
   decreamentMethod,
 }) {
   
-//   function increamentCounter() {
-//     increamentMethod(by);
-//   }
-
-//   function decreamentCounter() {
-//     decreamentMethod(by);
-//   }
-
   return (
     <div className="Counter">
       <div>
