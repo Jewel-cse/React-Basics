@@ -6,11 +6,13 @@
   color: white;
   padding: 15px;
   border-radius: 30px;
+  border-color: black;
+  border-width: 5px;
 }
 
 .count{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 100px;
     padding: 20px;
     
 }
