@@ -3,6 +3,9 @@ import './Counter.css';
 
 import CounterButton from './CounterButton';
 export default function Counter() {
+    //App - > Counter ->CounterButton;
+    //parent: Counter , have already increament, decreament function
+    //Child : CounterButton : i want to use the parent methods
   //counter level e state maintain
   const [count, setCount] = useState(0);
 
