@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './Counter.css';
+import  PropTypes  from 'prop-types'
+
 
 export default function Counter({by}) {  //by is an object
   //[0,f]
@@ -26,4 +28,12 @@ export default function Counter({by}) {  //by is an object
       </div>
     </div>
   );
+}
+
+Counter.propTypes = {
+    by:PropTypes.number
+}
+
+Counter.defaultProps = {
+    by:1
 }
